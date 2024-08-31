@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #f0f0f0, #e5e5e5);
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; 
+}
+
+.create_form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create_form input {
+  width: 350px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.create_form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  width: 80px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.create_form .add-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.line_through {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.todo-item {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.todo-item .checkbox {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.todo-item .checkbox .icon {
+  font-size: 15px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.todo-item .trash {
+  margin-left: auto;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.todo-item p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+.create_form button:hover, .create_form .add-btn:hover {
+  background-color: #3e8e41; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.todo-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
