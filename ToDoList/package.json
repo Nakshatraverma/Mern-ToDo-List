@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite",                // Start the development server
+    "build": "vite build",        // Build the project for production
+    "lint": "eslint .",           // Lint the codebase
+    "preview": "vite preview"     // Preview the production build
   },
   "dependencies": {
     "axios": "^1.7.5",
